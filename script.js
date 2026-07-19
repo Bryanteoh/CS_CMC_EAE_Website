@@ -29,11 +29,7 @@ const projectData = {
         category: "Published Chinese Writing",
         title: "Published Chinese Articles",
         summary:
-<<<<<<< HEAD
-            "Six published Chinese pieces showing my growth in reflection, storytelling and audience awareness.",
-=======
             "Ten published Chinese pieces showing my growth in reflection, storytelling and audience awareness.",
->>>>>>> master
         description:
             "This collection shows how I use Chinese writing to explore people, culture, emotions and social experiences. Publishing for a real audience has taught me to identify a clear theme, organise ideas, select an appropriate tone and revise carefully. Together, the pieces demonstrate both my interest in Chinese language and my potential in Chinese media storytelling.",
         skills: [
@@ -217,21 +213,6 @@ const projectData = {
         ],
         images: [
             {
-<<<<<<< HEAD
-                src: "assets/Achievements/cca-page-1.jpeg",
-                alt: "Co-Curriculum Certificate page 1 showing attainment, leadership and enrichment records",
-                caption: "CCA overview — Co-curricular attainment: Excellent. Level of Attainment: Leadership 4, Achievement 4, Participation 5, Service 5, Bonus Points 2. Leadership roles include Environment Advocate, Upper Sec CCA Executive Committee and Upper Sec Section/Group Leader."
-            },
-            {
-                src: "assets/Achievements/cca-page-2.jpeg",
-                alt: "Co-Curriculum Certificate page 2 showing achievement events from 2023 to 2026",
-                caption: "Achievement records — Events include Choir SYF 2025, 24th Speech Day, Hari Raya Concert, Speech Day performances, National Day Concerts, inter-class games, badminton carnivals, Chinese Mini Fiction Creative Writing Competition and National Mandarin Oratorial Competition."
-            },
-            {
-                src: "assets/Achievements/cca-page-3.jpeg",
-                alt: "Co-Curriculum Certificate page 3 showing achievement continuation, participation and VIA service records",
-                caption: "Participation and service records — Choir participation from 2022–2026 reached Level 5. VIA service totalled 49 hours, including SG60 engagement activities, Community Service @ Sparkletots, In-House Choir Concert Crescendo, Befriending @ Renci, Green@Hillgrove and Dengue Prevention."
-=======
                 src: "assets/Achievements/A21.jpeg",
                 alt: "Hillgrove Badminton Carnival award photograph",
                 caption: "Hillgrove Badminton Carnival — recognition for participating in the Secondary 3 Girls' Singles event."
@@ -245,7 +226,6 @@ const projectData = {
                 src: "assets/Achievements/A19.jpeg",
                 alt: "Genius Hour learning series completion certificate",
                 caption: "Genius Hour learning series — completion of Module 3, Knowing Our World, as part of Mother Tongue enrichment."
->>>>>>> master
             }
         ]
     }
