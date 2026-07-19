@@ -29,7 +29,11 @@ const projectData = {
         category: "Published Chinese Writing",
         title: "Published Chinese Articles",
         summary:
+<<<<<<< HEAD
             "Six published Chinese pieces showing my growth in reflection, storytelling and audience awareness.",
+=======
+            "Ten published Chinese pieces showing my growth in reflection, storytelling and audience awareness.",
+>>>>>>> master
         description:
             "This collection shows how I use Chinese writing to explore people, culture, emotions and social experiences. Publishing for a real audience has taught me to identify a clear theme, organise ideas, select an appropriate tone and revise carefully. Together, the pieces demonstrate both my interest in Chinese language and my potential in Chinese media storytelling.",
         skills: [
@@ -213,6 +217,7 @@ const projectData = {
         ],
         images: [
             {
+<<<<<<< HEAD
                 src: "assets/Achievements/cca-page-1.jpeg",
                 alt: "Co-Curriculum Certificate page 1 showing attainment, leadership and enrichment records",
                 caption: "CCA overview — Co-curricular attainment: Excellent. Level of Attainment: Leadership 4, Achievement 4, Participation 5, Service 5, Bonus Points 2. Leadership roles include Environment Advocate, Upper Sec CCA Executive Committee and Upper Sec Section/Group Leader."
@@ -226,6 +231,21 @@ const projectData = {
                 src: "assets/Achievements/cca-page-3.jpeg",
                 alt: "Co-Curriculum Certificate page 3 showing achievement continuation, participation and VIA service records",
                 caption: "Participation and service records — Choir participation from 2022–2026 reached Level 5. VIA service totalled 49 hours, including SG60 engagement activities, Community Service @ Sparkletots, In-House Choir Concert Crescendo, Befriending @ Renci, Green@Hillgrove and Dengue Prevention."
+=======
+                src: "assets/Achievements/A21.jpeg",
+                alt: "Hillgrove Badminton Carnival award photograph",
+                caption: "Hillgrove Badminton Carnival — recognition for participating in the Secondary 3 Girls' Singles event."
+            },
+            {
+                src: "assets/Achievements/A1.jpeg",
+                alt: "CCC-CDC Education Merit Award 2024 certificate",
+                caption: "CCC-CDC Education Merit Award 2024 — recognition of consistent effort and achievement in Secondary 3."
+            },
+            {
+                src: "assets/Achievements/A19.jpeg",
+                alt: "Genius Hour learning series completion certificate",
+                caption: "Genius Hour learning series — completion of Module 3, Knowing Our World, as part of Mother Tongue enrichment."
+>>>>>>> master
             }
         ]
     }

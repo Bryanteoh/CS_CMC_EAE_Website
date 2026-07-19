@@ -854,6 +854,135 @@ h3,
     color: rgba(255, 255, 255, 0.62);
 }
 
+<<<<<<< HEAD
+=======
+[hidden] {
+    display: none !important;
+}
+
+/* Featured evidence: lets reviewers reach the strongest work immediately. */
+.featured-work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin: 2rem 0 2.5rem;
+}
+
+.featured-work-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 1.5rem;
+    border: 1px solid rgba(143, 23, 35, 0.2);
+    border-top: 4px solid var(--red, #8f1723);
+    border-radius: 0.9rem;
+    background: rgba(255, 252, 244, 0.9);
+    box-shadow: 0 12px 30px rgba(72, 38, 20, 0.08);
+}
+
+.featured-work-number {
+    color: var(--red, #8f1723);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.featured-work-card h3 {
+    margin: 0.65rem 0 0.75rem;
+    font-size: clamp(1.15rem, 2vw, 1.4rem);
+    line-height: 1.45;
+}
+
+.featured-work-card p {
+    margin: 0 0 1.25rem;
+    color: var(--muted, #5f584f);
+}
+
+.featured-work-card a {
+    margin-top: auto;
+    color: var(--red, #8f1723);
+    font-weight: 800;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.25em;
+}
+
+.portfolio-archive-heading {
+    margin: 0 0 1.25rem;
+}
+
+.portfolio-archive-heading h3 {
+    margin: 0.3rem 0 0;
+}
+
+.portrait-placeholder strong {
+    display: block;
+    margin-top: 0.85rem;
+    letter-spacing: 0.08em;
+}
+
+@media (max-width: 860px) {
+    .featured-work-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* A straightforward evidence index replaces the previous filter-and-window UI. */
+.simple-collection-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.25rem;
+}
+
+.simple-collection-grid article {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.2rem 1.35rem;
+    border: 1px solid rgba(143, 23, 35, 0.18);
+    border-radius: 0.85rem;
+    background: #fffdf8;
+}
+
+.simple-collection-grid article > span {
+    display: grid;
+    width: 2.8rem;
+    height: 2.8rem;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--red, #8f1723);
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.simple-collection-grid h3,
+.simple-collection-grid p {
+    margin: 0;
+}
+
+.simple-collection-grid p {
+    margin-top: 0.25rem;
+    color: var(--muted, #5f584f);
+}
+
+.simple-collection-grid .button {
+    white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+    .simple-collection-grid article {
+        grid-template-columns: auto 1fr;
+    }
+
+    .simple-collection-grid .button {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+}
+
+>>>>>>> master
 .corner {
     position: absolute;
     width: 36px;
